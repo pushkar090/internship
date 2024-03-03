@@ -1,0 +1,373 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-image: url('bg.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom 19%;
+}
+
+}
+.container {
+    text-align:start;
+    font-size: larger;
+    left: 200px;
+    margin: auto;
+    max-width: 700px; /* Adjust as needed */
+}
+
+header {
+    background-color: #0a2645f4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: -25%;
+}
+
+#home {
+    margin-top: -41px;
+    background-size: cover;
+    background-position: center;
+    color: #e5e2e2;
+    padding: 100px 0;
+}
+
+#home .container {
+    text-align: left;
+    margin-left: 5px;
+}
+
+/*services*/
+#services {
+    width: 1350px;
+    height: 400px;
+    padding: 3%;
+    padding-top: 6%;
+    border: solid rgba(0, 0, 0, 0.434); 
+    border-radius: 15px;
+    margin-left: 10px;
+}
+/*review section*/
+
+.rev-section {
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.title {
+    font-size: 3.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .5rem;
+    color: #fff;
+    font-family: cursive;
+}
+
+.reviews {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.review {
+    margin: 0 1rem;
+    min-width: 300px;
+    flex: 1;
+
+}
+
+.head-review {
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.body-review {
+    background-color: rgb(238, 238, 238);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name-review {
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+}
+
+.place-review {
+    color: violet;
+    font-style: italic;
+}
+
+.rating {
+    color: rgb(253, 180, 42);
+    margin: 1rem 0;
+}
+
+.desc-review {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+
+@media (max-width: 678px) {
+    .review {
+        margin-top: 1.5rem;
+    }
+}
+
+.credit a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  "Know More" button */
+#know-more button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+/* Hover button */
+#know-more button:hover {
+    background-color: #0056b3; 
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: -25%;
+}
+
+.footer-content {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: -8%; /* Adjust margin-left */
+}
+
+.left-section input[type="text"],
+.left-section input[type="email"],
+.left-section button[type="submit"],
+.left-section textarea {
+    margin-left: -25%;
+    width: calc(100% - 35px);
+    padding: 12px; /* Increase padding for a bigger appearance */
+    font-size: 16px; /* Increase font size for better visibility */
+    border-radius: 8px; /* Adjust border radius for a rounded appearance */
+    border: none;
+    background-color: #555;
+    color: #fff;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.left-section button[type="submit"]
+ {
+    
+    position::bottom;
+    padding: 10px 20px;
+    font-size: medium;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-section button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.right-section a{
+    color: white;
+    text-decoration: none;
+}
+
+/* for cards */
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.485);
+    overflow: hidden;
+  }
+  
+  .course-card img {
+    width: 90%;
+    height: auto;
+    margin-left: 15px ;
+    margin-top: 15px;
+}
+  
+  .course-info {
+    padding: 20px;
+  }
+  
+  .course-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .course-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .course-info a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .course-info a:hover {
+    background-color: #0056b3;
+  }
+  
+
+/* chat bot */
+body{
+    background-position: center bottom 10%;
+}
+  
+  .chat-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .user-message {
+    background-color: #add8e6;
+    align-self: flex-end;
+  }
+  
+  .bot-message {
+    background-color: #ffe4b5;
+    align-self: flex-start;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
